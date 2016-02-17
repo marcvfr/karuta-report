@@ -1,0 +1,28 @@
+<html>
+<head>
+<script language="javascript" type="text/javascript" src="jquery-2.2.0.min.js"></script>
+<script language="javascript" type="text/javascript" src="start_client.js"></script>
+</head>
+<body>
+	<table id='conf_table'>
+	</table>
+	<form action='/config' method='post'>
+		Code: <input type="text" name='code'></br>
+		Time: <input type="text" name='time'></br>
+		Start day:</br>
+		Monday <input type="radio" name='startday' value='mon' checked></br>
+		Tuesday <input type="radio" name='startday' value='tue'></br>
+		Wednesday <input type="radio" name='startday' value='wed'></br>
+		Thursday <input type="radio" name='startday' value='thu'></br>
+		Friday <input type="radio" name='startday' value='frik'></br>
+		Saturday <input type="radio" name='startday' value='sat'></br>
+		Sunday <input type="radio" name='startday' value='sun'></br>
+		</br>
+		Frequence:</br>
+		Day <input type="radio" name='freq' value='day' checked></br>
+		Week <input type="radio" name='freq' value='week'></br>
+		Month <input type="radio" name='freq' value='month'></br>
+		<input type='submit'>
+	</form>
+</body>
+</html>
