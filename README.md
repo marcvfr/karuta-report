@@ -12,6 +12,17 @@ In the browser
 
 [screenshot]
 
+## Debian Install
+
+curl -sL https://deb.nodesource.com/setup_4.x | bash -
+apt-get install nodejs
+npm install -g node-static
+ln -s /usr/lib/node_modules /usr/local/node_modules
+npm install -g request
+npm install -g jsdom
+npm install -g xmldom
+
+
 ## TODO
 - Backport the report code and ensure that it is compatible with a browser
 - Configuration when the service is running on another computer different from the backend
